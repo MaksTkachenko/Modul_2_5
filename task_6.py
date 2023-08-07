@@ -2,7 +2,7 @@
 
 def even_number_filter(list_number):
     for i in list_number:
-        if i % 2 == 0:
+        if not i % 2 == 0:
             yield i
 
 
